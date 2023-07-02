@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES2018",
+		"module": "commonjs",
+		"outDir": "dist",
+		"rootDir": ".",
+		"strict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"incremental": true,
+		"lib": ["ES2021.String"]
+	},
+	"include": ["src", "prisma"]
+}
